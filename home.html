@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fluff Stuff</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- From https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp -->
+    <div class="sidenav">
+      <a href="#">Home</a>
+      <a href="#">Profile</a>
+      <a href="couchpillow.html">Couch Pillow</a>
+      <a href="#">Bed Pillow</a>
+      <a href="#">Round Pillow</a>
+      <a href="#">Floor Pouf Pillow</a>
+      <a href="#">About Us</a>
+      <a href="contactUs.html">Contact Us</a>
+      <a href="#">Sign Up/In</a>
+      <div id="searchBar">
+        <!-- From https://www.w3schools.com/howto/howto_css_searchbar.asp-->
+        <input type="text" placeholder="Search..">
+      </div>
+    </div>
+    <!-- From https://stackoverflow.com/questions/7282236/placing-an-image-to-the-top-right-corner-css -->
+    <div id="cart">
+      <img src="imgs/cart.png" class="cart" alt="cart" />
+    </div>
+    <!-- From https://www.w3schools.com/tags/tag_select.asp -->
+    <h1>Fluff Stuff</h1>
+    <div class="product">
+      <h2>COUCH PILLOW -$10</h2>
+      <img src="imgs/couch_pillow.jpeg" class="productHome" alt="Couch Pillow" />
+      <div class="options">
+        <label for="Color">Color</label>
+        <select id="Color" name="Color">
+          <option value="--">--</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="white">White</option>
+          <option value="gold">Gold</option>
+        </select>
+        <label class="spacing" for="Filling">Filling</label>
+        <select id="Filling" name="Filling">
+          <option value="--">--</option>
+          <option value="cotton">Cotton</option>
+          <option value="down">Down</option>
+          <option value="none">None</option>
+        </select>
+        <label class="spacing" for="Quantity">Quantity</label>
+        <select id="Quantity" name="Quantity">
+          <option value="--">--</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3+">3+</option>
+        </select>
+      </div>
+      <div class="checkout">
+        <!-- From https://www.w3schools.com/howto/howto_css_block_buttons.asp and https://www.w3schools.com/howto/howto_css_outline_buttons.asp -->
+        <button type="button" class="block">Add to Cart</button>
+        <button type="button" class="block">Order Now</button>
+      </div>
+    </div>
+    <div class="product">
+      <h2>BED PILLOW -$10</h2>
+      <img src="imgs/bed_pillow.jpeg" class="productHome" alt="Bed Pillow" />
+      <div class="options">
+        <label for="Color1">Color</label>
+        <select id="Color1" name="Color">
+          <option value="--">--</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="white">White</option>
+          <option value="gold">Gold</option>
+        </select>
+        <label class="spacing" for="Filling1">Filling</label>
+        <select id="Filling1" name="Filling">
+          <option value="--">--</option>
+          <option value="cotton">Cotton</option>
+          <option value="down">Down</option>
+          <option value="none">None</option>
+        </select>
+        <label class="spacing" for="Quantity1">Quantity</label>
+        <select id="Quantity1" name="Quantity">
+          <option value="--">--</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3+">3+</option>
+        </select>
+      </div>
+      <div class="checkout">
+        <button type="button" class="block">Add to Cart</button>
+        <button type="button" class="block">Order Now</button>
+      </div>
+    </div>
+    <div class="product">
+      <h2>ROUND PILLOW -$20</h2>
+      <img src="imgs/round_pillow.png" class="productHome" alt="Round Pillow" />
+      <div class="options">
+        <label for="Color2">Color</label>
+        <select id="Color2" name="Color">
+          <option value="--">--</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="white">White</option>
+          <option value="gold">Gold</option>
+        </select>
+        <label class="spacing" for="Filling2">Filling</label>
+        <select id="Filling2" name="Filling">
+          <option value="--">--</option>
+          <option value="cotton">Cotton</option>
+          <option value="down">Down</option>
+          <option value="none">None</option>
+        </select>
+        <label class="spacing" for="Quantity2">Quantity</label>
+        <select id="Quantity2" name="Quantity">
+          <option value="--">--</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3+">3+</option>
+        </select>
+      </div>
+      <div class="checkout">
+        <button type="button" class="block">Add to Cart</button>
+        <button type="button" class="block">Order Now</button>
+      </div>
+    </div>
+    <div class="product">
+      <h2>FLOOR POUF PILLOW -$40</h2>
+      <img src="imgs/floor_pouf_pillow.jpg" class="productHome" alt="Floor Pouf Pillow" />
+      <div class="options">
+        <label for="Color3">Color</label>
+        <select id="Color3" name="Color">
+          <option value="--">--</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="white">White</option>
+          <option value="gold">Gold</option>
+        </select>
+        <label class="spacing" for="Filling3">Filling</label>
+        <select id="Filling3" name="Filling">
+          <option value="--">--</option>
+          <option value="cotton">Cotton</option>
+          <option value="down">Down</option>
+          <option value="none">None</option>
+        </select>
+        <label class= "spacing" for="Quantity3">Quantity</label>
+        <select id="Quantity3" name="Quantity">
+          <option value="--">--</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3+">3+</option>
+        </select>
+      </div>
+      <div class="checkout">
+        <button type="button" class="block">Add to Cart</button>
+        <button type="button" class="block">Order Now</button>
+      </div>
+    </div>
+  </body>
+</html>
