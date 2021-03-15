@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fluff Stuff</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="sidenav">
+        <a href="home.html">Home</a>
+        <a href="#">Profile</a>
+        <a href="couchpillow.html">Couch Pillow</a>
+        <a href="#">Bed Pillow</a>
+        <a href="#">Round Pillow</a>
+        <a href="#">Floor Pouf Pillow</a>
+        <a href="#">About Us</a>
+        <a href="contactUs.html">Contact Us</a>
+        <a href="#">Sign Up/In</a>
+        <div id="searchBar">
+          <input type="text" placeholder="Search..">
+        </div>
+      </div>
+      <div id="cart">
+        <img src="imgs/cart.png" class="cart" alt="Cart" />
+      </div>
+      <h1>Fluff Stuff</h1>
+      <!-- From https://www.w3schools.com/howto/howto_css_two_columns.asp -->
+      <div class="column">
+        <h2>COUCH PILLOW -$10</h2>
+        <img src="imgs/couch_pillow.jpeg" class="productHome" alt="Couch Pillow"/>
+        <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+      </div>
+      <div class="column">
+        <div class="colorRow">
+          <label for="Color">Color</label>
+          <select id="Color" name="Color" class="dropdownPpg">
+            <option value="--">--</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="white">White</option>
+            <option value="gold">Gold</option>
+          </select>
+        </div>
+        <div class="fillingRow">
+          <label for="Filling">Filling</label>
+          <select id="Filling" name="Filling" class="dropdownPpg">
+            <option value="--">--</option>
+            <option value="cotton">Cotton</option>
+            <option value="down">Down</option>
+            <option value="none">None</option>
+          </select>
+        </div>
+        <div class="quantityRow">
+          <label for="Quantity">Quantity</label>
+          <select id="Quantity" name="Quantity" class="dropdownPpg">
+            <option value="--">--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3+">3+</option>
+          </select>
+        </div>
+        <div class="viewInAR">
+          <button type="button" class="blockPpg">View in AR</button>
+        </div>
+        <div class="addToCart">
+          <button type="button" class="blockPpg">Add to Cart</button>
+        </div>
+        <div class="orderNow">
+          <button type="button" class="blockPpg">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

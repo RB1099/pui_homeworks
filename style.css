@@ -1,0 +1,234 @@
+/*From https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #E5E5E5; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 28px 0px 6px 0px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial, Helvetica, sans serif;
+  font-size: 25px;
+  /* https://stackoverflow.com/questions/38205797/how-to-combine-bold-and-italic-in-css */
+  font-weight:bold;
+  font-style: italic;
+  color: black;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.product {
+  margin-left: 250px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans serif;
+  font-style:italic;
+  font-weight:bold;
+  text-align: center;
+  color: #E5E5E5;
+}
+
+body {
+  background-color: #FFFEF0;
+}
+
+#cart {
+    position: relative;
+}
+#cart img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans serif;
+  font-style: italic;
+  font-weight:bold;
+  color:#E5E5E5;
+  padding-left: 300px;
+  padding-top: 20px;
+}
+.productHome{
+  padding-left: 300px;
+  max-width:597px;
+  max-height:597px;
+}
+.productPpg{
+  padding-left: 150px;
+}
+.options{
+  padding-left:300px;
+  padding-top: 20px;
+  font-style:italic;
+  font-family:Arial, Helvetica, sans serif;
+  font-weight:bold;
+  color: black;
+}
+
+.checkout{
+  padding-top:40px;
+  padding-left:300px;
+}
+.block {
+  width: 27%;
+  background-color: #FFFEF0;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, Helvetica, sans serif;
+  font-style:italic;
+  font-weight:bold;
+  border:1px solid black;
+}
+#desc{
+  padding-left:300px;
+  max-width:600px;
+  font-family: Arial, Helvetica, sans serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.colorRow{
+  padding-left:300px;
+  padding-top: 90px;
+  font-family:Arial, Helvetica, sans serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight:bold;
+}
+.dropdownPpg{
+  padding-top: 10px;
+  padding-left:150px;
+  padding-right:150px;
+  padding-bottom: 10px;
+}
+.fillingRow{
+  padding-left:295px;
+  padding-top: 130px;
+  font-family:Arial, Helvetica, sans serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight:bold;
+}
+.quantityRow{
+  padding-left:295px;
+  padding-top: 130px;
+  font-family:Arial, Helvetica, sans serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight:bold;
+}
+.viewInAR
+{
+  padding-left:300px;
+  padding-top: 130px;
+}
+.blockPpg{
+  width: 80%;
+  background-color: #FFFEF0;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, Helvetica, sans serif;
+  font-style:italic;
+  font-weight:bold;
+  border:1px solid black;
+}
+.addToCart{
+  padding-left:300px;
+  padding-top: 70px;
+}
+.orderNow{
+  padding-left:300px;
+  padding-top: 30px; 
+}
+.contactButton{
+  padding-left:480px;
+  padding-top: 60px;
+}
+.contactUsBlock
+{
+  width: 60%;
+  background-color: #FFFEF0;
+  padding: 18px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-family: Arial, Helvetica, sans serif;
+  font-style:italic;
+  font-weight:bold;
+  border:none;
+  /* From https://www.w3schools.com/css/css3_borders.asp */
+  border-radius: 30px;
+}
+#ig
+{
+  background-color:#FFD9D9;
+}
+#fb
+{
+  background-color:#B8D9FF;
+}
+#twitter
+{
+  background-color:#95F2FF;
+}
+#em
+{
+  background-color:#CFBDED;
+}
+#cu
+{
+  background-color:#B4BFA7;
+}
+#fu
+{
+  background-color:#B48989;
+}
+.spacing{
+  padding-left: 132px;
+}
+#searchBar{
+  padding-top:330px;
+  padding-left: 50px;
+}
